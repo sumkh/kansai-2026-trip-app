@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+/* System fonts only — see layout.tsx. Zero bytes on a metered connection, and
+   the Japanese in the indexes renders correctly from the OS font stack. */
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Hiragino Sans", "Noto Sans JP", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* ── Rendered master plan ─────────────────────────────────────────────────
+   The markdown comes from docs/KANSAI-2026-MASTER-PLAN.md, so these styles
+   have to cover whatever that document happens to contain: deep tables, nested
+   lists, blockquotes, strikethrough. Sized for reading on a phone.          */
+
+.md {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--color-stone-700);
+}
+@media (prefers-color-scheme: dark) {
+  .md { color: var(--color-stone-300); }
+}
+
+.md > *:first-child { margin-top: 0; }
+
+.md h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin: 2rem 0 0.5rem;
+  color: var(--color-stone-900);
+}
+.md h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 2.25rem 0 0.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-stone-200);
+  color: var(--color-stone-900);
+  /* Anchors land below the sticky offline banner rather than under it. */
+  scroll-margin-top: 4rem;
+}
+.md h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem;
+  color: var(--color-stone-900);
+  scroll-margin-top: 4rem;
+}
+@media (prefers-color-scheme: dark) {
+  .md h1, .md h2, .md h3 { color: var(--color-stone-100); }
+  .md h2 { border-top-color: var(--color-stone-800); }
+}
+
+.md p { margin: 0.75rem 0; }
+.md strong { font-weight: 600; color: var(--color-stone-900); }
+@media (prefers-color-scheme: dark) {
+  .md strong { color: var(--color-stone-100); }
+}
+
+.md ul, .md ol { margin: 0.75rem 0; padding-left: 1.25rem; }
+.md ul { list-style: disc; }
+.md ol { list-style: decimal; }
+.md li { margin: 0.35rem 0; }
+.md li::marker { color: var(--color-stone-400); }
+
+.md a {
+  color: var(--color-stone-900);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+@media (prefers-color-scheme: dark) {
+  .md a { color: var(--color-stone-100); }
+}
+
+.md blockquote {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--color-amber-400);
+  background: var(--color-amber-50);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.md blockquote p { margin: 0.35rem 0; }
+@media (prefers-color-scheme: dark) {
+  .md blockquote {
+    background: color-mix(in oklab, var(--color-amber-950) 40%, transparent);
+    border-left-color: var(--color-amber-700);
+  }
+}
+
+.md code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+  padding: 0.1em 0.35em;
+  border-radius: 0.25rem;
+  background: var(--color-stone-100);
+}
+@media (prefers-color-scheme: dark) {
+  .md code { background: var(--color-stone-800); }
+}
+
+.md del { color: var(--color-stone-400); }
+
+.md hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px solid var(--color-stone-200);
+}
+@media (prefers-color-scheme: dark) {
+  .md hr { border-top-color: var(--color-stone-800); }
+}
+
+/* Tables scroll inside themselves. The page body must never scroll sideways —
+   that is the fastest way to make a phone layout feel broken. */
+.md-table {
+  overflow-x: auto;
+  margin: 1rem 0;
+  border: 1px solid var(--color-stone-200);
+  border-radius: 0.75rem;
+  -webkit-overflow-scrolling: touch;
+}
+.md-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8125rem;
+  min-width: 26rem;
+}
+.md-table th,
+.md-table td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-stone-200);
+}
+.md-table th {
+  font-weight: 600;
+  white-space: nowrap;
+  background: var(--color-stone-100);
+  color: var(--color-stone-900);
+}
+.md-table tr:last-child td { border-bottom: 0; }
+@media (prefers-color-scheme: dark) {
+  .md-table { border-color: var(--color-stone-800); }
+  .md-table th, .md-table td { border-bottom-color: var(--color-stone-800); }
+  .md-table th {
+    background: var(--color-stone-800);
+    color: var(--color-stone-100);
+  }
+}

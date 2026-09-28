@@ -1,0 +1,522 @@
+[
+  {
+    "slug": "kuromon-ichiba-market",
+    "file": "kuromon-ichiba-market.webp",
+    "credit": "ほっきー",
+    "license": "CC0",
+    "source": "https://ja.wikipedia.org/wiki/%E9%BB%92%E9%96%80%E5%B8%82%E5%A0%B4",
+    "generic": false
+  },
+  {
+    "slug": "dotonbori",
+    "file": "dotonbori.webp",
+    "credit": "Type specimen",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E9%81%93%E9%A0%93%E5%A0%80",
+    "generic": false
+  },
+  {
+    "slug": "shinsekai-tsutenkaku",
+    "file": "shinsekai-tsutenkaku.webp",
+    "credit": "Sakai Yayoi",
+    "license": "CC0",
+    "source": "https://ja.wikipedia.org/wiki/%E9%80%9A%E5%A4%A9%E9%96%A3",
+    "generic": false
+  },
+  {
+    "slug": "hozenji-yokocho",
+    "file": "hozenji-yokocho.webp",
+    "credit": "＋－ from jawp",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E6%B3%95%E5%96%84%E5%AF%BA",
+    "generic": false
+  },
+  {
+    "slug": "taima-dera",
+    "file": "taima-dera.webp",
+    "credit": "8-hachiro",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E7%95%B6%E9%BA%BB%E5%AF%BA",
+    "generic": false
+  },
+  {
+    "slug": "shitenno-ji",
+    "file": "shitenno-ji.webp",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://ja.wikipedia.org/wiki/%E5%9B%9B%E5%A4%A9%E7%8E%8B%E5%AF%BA",
+    "generic": false
+  },
+  {
+    "slug": "isshin-ji",
+    "file": "isshin-ji.webp",
+    "credit": "KENPEI",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E4%B8%80%E5%BF%83%E5%AF%BA",
+    "generic": false
+  },
+  {
+    "slug": "hankyu-sanban-gai",
+    "file": "hankyu-sanban-gai.webp",
+    "credit": "＋－",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E9%98%AA%E6%80%A5%E4%B8%89%E7%95%AA%E8%A1%97",
+    "generic": false
+  },
+  {
+    "slug": "taiko-no-yu",
+    "file": "taiko-no-yu.webp",
+    "credit": "663highland",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:161112_Taikou-no-yu_spa_Arima_Onsen_Kobe_Japan01s3.jpg",
+    "generic": false
+  },
+  {
+    "slug": "kin-no-yu",
+    "file": "kin-no-yu.webp",
+    "credit": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E9%87%91%E3%81%AE%E6%B9%AF",
+    "generic": false
+  },
+  {
+    "slug": "zuiho-ji-park",
+    "file": "zuiho-ji-park.webp",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://ja.wikipedia.org/wiki/%E7%91%9E%E5%AE%9D%E5%AF%BA%E5%85%AC%E5%9C%92",
+    "generic": false
+  },
+  {
+    "slug": "ashiyu-foot-baths-old-streets",
+    "file": "ashiyu-foot-baths-old-streets.webp",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://ja.wikipedia.org/wiki/%E8%B6%B3%E6%B9%AF",
+    "generic": false
+  },
+  {
+    "slug": "arima-rokko-ropeway",
+    "file": "arima-rokko-ropeway.webp",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://ja.wikipedia.org/wiki/%E5%85%AD%E7%94%B2%E6%9C%89%E9%A6%AC%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%83%BC",
+    "generic": false
+  },
+  {
+    "slug": "arima-toys-and-automata-museum",
+    "file": "arima-toys-and-automata-museum.webp",
+    "credit": "Abasaa",
+    "license": "Public domain",
+    "source": "https://ja.wikipedia.org/wiki/%E6%9C%89%E9%A6%AC%E7%8E%A9%E5%85%B7%E5%8D%9A%E7%89%A9%E9%A4%A8",
+    "generic": false
+  },
+  {
+    "slug": "tenjin-hot-spring-source",
+    "file": "tenjin-hot-spring-source.webp",
+    "credit": "Bergmann",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arima_Onsen_Tenjin_Sengen.JPG",
+    "generic": false
+  },
+  {
+    "slug": "gosho-hot-spring-source",
+    "file": "gosho-hot-spring-source.webp",
+    "credit": "Suikotei",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gosho-sengen.jpg",
+    "generic": false
+  },
+  {
+    "slug": "onsen-ji",
+    "file": "onsen-ji.webp",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Onsenji_Kobe01s3200.jpg",
+    "generic": false
+  },
+  {
+    "slug": "nenbutsu-ji",
+    "file": "nenbutsu-ji.webp",
+    "credit": "663highland",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:161112_Nenbutsu-ji_Arima_Onsen_Kobe_Japan01s3.jpg",
+    "generic": false
+  },
+  {
+    "slug": "gin-no-yu",
+    "file": "gin-no-yu.webp",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://ja.wikipedia.org/wiki/%E9%8A%80%E3%81%AE%E6%B9%AF",
+    "generic": false
+  },
+  {
+    "slug": "nishiki-market",
+    "file": "nishiki-market.webp",
+    "credit": "matsuyuki",
+    "license": "CC BY-SA 2.0",
+    "source": "https://ja.wikipedia.org/wiki/%E9%8C%A6%E5%B8%82%E5%A0%B4",
+    "generic": false
+  },
+  {
+    "slug": "teramachi-shinkyogoku-arcades",
+    "file": "teramachi-shinkyogoku-arcades.webp",
+    "credit": "mariemon",
+    "license": "CC BY 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E6%96%B0%E4%BA%AC%E6%A5%B5%E9%80%9A",
+    "generic": false
+  },
+  {
+    "slug": "fushimi-inari-taisha",
+    "file": "fushimi-inari-taisha.webp",
+    "credit": "Saigen Jiro",
+    "license": "CC0",
+    "source": "https://ja.wikipedia.org/wiki/%E4%BC%8F%E8%A6%8B%E7%A8%B2%E8%8D%B7%E5%A4%A7%E7%A4%BE",
+    "generic": false
+  },
+  {
+    "slug": "kiyomizu-dera",
+    "file": "kiyomizu-dera.webp",
+    "credit": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E6%B8%85%E6%B0%B4%E5%AF%BA",
+    "generic": false
+  },
+  {
+    "slug": "sannenzaka-ninenzaka",
+    "file": "sannenzaka-ninenzaka.webp",
+    "credit": "Tomomarusan",
+    "license": "CC BY 2.5",
+    "source": "https://ja.wikipedia.org/wiki/%E7%94%A3%E5%AF%A7%E5%9D%82",
+    "generic": false
+  },
+  {
+    "slug": "gion",
+    "file": "gion.webp",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "source": "https://ja.wikipedia.org/wiki/%E7%A5%87%E5%9C%92",
+    "generic": false
+  },
+  {
+    "slug": "ninenzaka",
+    "file": "ninenzaka.webp",
+    "credit": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://en.wikipedia.org/wiki/Ninenzaka",
+    "generic": false
+  },
+  {
+    "slug": "kodai-ji",
+    "file": "kodai-ji.webp",
+    "credit": "663highland",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E9%AB%98%E5%8F%B0%E5%AF%BA",
+    "generic": false
+  },
+  {
+    "slug": "kennin-ji",
+    "file": "kennin-ji.webp",
+    "credit": "663highland",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E5%BB%BA%E4%BB%81%E5%AF%BA",
+    "generic": false
+  },
+  {
+    "slug": "chion-in",
+    "file": "chion-in.webp",
+    "credit": "Lombroso",
+    "license": "Public domain",
+    "source": "https://ja.wikipedia.org/wiki/%E7%9F%A5%E6%81%A9%E9%99%A2",
+    "generic": false
+  },
+  {
+    "slug": "takase-river",
+    "file": "takase-river.webp",
+    "credit": "daidarabotti",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%A4%95%E6%96%B9%E3%81%AE%E9%AB%98%E7%80%AC%E5%B7%9D%E3%81%A8%E6%9C%A8%E5%B1%8B%E7%94%BA_-_panoramio.jpg",
+    "generic": false
+  },
+  {
+    "slug": "nara-park-the-deer",
+    "file": "nara-park-the-deer.webp",
+    "credit": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+    "license": "CC BY 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:005_Autumn_in_Nara_Park,_Japan_-_Nara_deer_CC-BY_Creative_Commons_Attribution.jpg",
+    "generic": false
+  },
+  {
+    "slug": "todai-ji-great-buddha-hall",
+    "file": "todai-ji-great-buddha-hall.webp",
+    "credit": "Mont Blank rich",
+    "license": "CC0",
+    "source": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E5%A4%A7%E5%AF%BA",
+    "generic": false
+  },
+  {
+    "slug": "kasuga-taisha-lantern-approach",
+    "file": "kasuga-taisha-lantern-approach.webp",
+    "credit": "Saigen Jiro",
+    "license": "CC0",
+    "source": "https://ja.wikipedia.org/wiki/%E6%98%A5%E6%97%A5%E5%A4%A7%E7%A4%BE",
+    "generic": false
+  },
+  {
+    "slug": "soba-dosanjin",
+    "file": "soba-dosanjin.webp",
+    "credit": "Ocdp",
+    "license": "CC0",
+    "source": "https://ja.wikipedia.org/wiki/%E8%95%8E%E9%BA%A6",
+    "generic": true
+  },
+  {
+    "slug": "aramiya",
+    "file": "aramiya.webp",
+    "credit": "我路・幌内画像倉庫",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E5%B1%85%E9%85%92%E5%B1%8B",
+    "generic": true
+  },
+  {
+    "slug": "arima-18-ban",
+    "file": "arima-18-ban.webp",
+    "credit": "No machine-readable author provided. Ciro assumed (based on copyright claims).",
+    "license": "CC BY 2.5",
+    "source": "https://ja.wikipedia.org/wiki/%E7%8E%89%E5%AD%90%E7%84%BC%20(%E6%98%8E%E7%9F%B3%E5%B8%82)",
+    "generic": true
+  },
+  {
+    "slug": "taiko-no-yu-dining",
+    "file": "taiko-no-yu-dining.webp",
+    "credit": "663highland",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E5%A4%AA%E9%96%A4%E3%81%AE%E6%B9%AF",
+    "generic": false
+  },
+  {
+    "slug": "pan-du-bo",
+    "file": "pan-du-bo.webp",
+    "credit": "Peggy Greb, USDA ARS",
+    "license": "Public domain",
+    "source": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%B3",
+    "generic": true
+  },
+  {
+    "slug": "houkyuuan",
+    "file": "houkyuuan.webp",
+    "credit": "Peggy Greb, USDA ARS",
+    "license": "Public domain",
+    "source": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%B3",
+    "generic": true
+  },
+  {
+    "slug": "hankyu-umeda-depachika",
+    "file": "hankyu-umeda-depachika.webp",
+    "credit": "Conveyor belt sushi",
+    "license": "CC BY 2.0",
+    "source": "https://ja.wikipedia.org/wiki/%E9%A7%85%E5%BC%81",
+    "generic": true
+  },
+  {
+    "slug": "wanaka",
+    "file": "wanaka.webp",
+    "credit": "Miyuki Meinaka",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%93%E7%84%BC%E9%81%93%E6%A5%BD%E3%82%8F%E3%81%AA%E3%81%8B",
+    "generic": false
+  },
+  {
+    "slug": "kukuru",
+    "file": "kukuru.webp",
+    "credit": "Iwamotoyoshiko",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E7%99%BD%E3%83%8F%E3%83%88%E9%A3%9F%E5%93%81%E5%B7%A5%E6%A5%AD",
+    "generic": false
+  },
+  {
+    "slug": "chibo",
+    "file": "chibo.webp",
+    "credit": "Tokumeigakarinoaoshima",
+    "license": "CC0",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8D%83%E6%88%BF",
+    "generic": false
+  },
+  {
+    "slug": "mizuno",
+    "file": "mizuno.webp",
+    "credit": "Original: Mizuno Corporation Vector: Goo16",
+    "license": "Public domain",
+    "source": "https://en.wikipedia.org/wiki/Mizuno",
+    "generic": false
+  },
+  {
+    "slug": "daruma",
+    "file": "daruma.webp",
+    "credit": "kimishowota",
+    "license": "CC BY-SA 2.0",
+    "source": "https://ja.wikipedia.org/wiki/%E4%B8%B2%E3%82%AB%E3%83%84",
+    "generic": true
+  },
+  {
+    "slug": "551-horai",
+    "file": "551-horai.webp",
+    "credit": "アイス",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E8%93%AC%E8%90%8A%20(%E9%A3%B2%E9%A3%9F%E5%BA%97)",
+    "generic": false
+  },
+  {
+    "slug": "rikuro-s",
+    "file": "rikuro-s.webp",
+    "credit": "Ocdp",
+    "license": "CC0",
+    "source": "https://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%AF%E3%83%AD%E3%83%BC",
+    "generic": false
+  },
+  {
+    "slug": "kuromon-ichiba-stalls",
+    "file": "kuromon-ichiba-stalls.webp",
+    "credit": "ほっきー",
+    "license": "CC0",
+    "source": "https://ja.wikipedia.org/wiki/%E9%BB%92%E9%96%80%E5%B8%82%E5%A0%B4",
+    "generic": false
+  },
+  {
+    "slug": "hozenji-yokocho",
+    "file": "hozenji-yokocho.webp",
+    "credit": "＋－ from jawp",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E6%B3%95%E5%96%84%E5%AF%BA",
+    "generic": false
+  },
+  {
+    "slug": "nishiki-market-miki-keiran",
+    "file": "nishiki-market-miki-keiran.webp",
+    "credit": "極地狐",
+    "license": "CC BY 2.0",
+    "source": "https://ja.wikipedia.org/wiki/%E5%8D%B5%E7%84%BC%E3%81%8D",
+    "generic": true
+  },
+  {
+    "slug": "pontocho-obanzai",
+    "file": "pontocho-obanzai.webp",
+    "credit": "Takoradee",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E3%81%8A%E3%81%B0%E3%82%93%E3%81%96%E3%81%84",
+    "generic": true
+  },
+  {
+    "slug": "honke-daiichi-asahi",
+    "file": "honke-daiichi-asahi.webp",
+    "credit": "Quercus acuta",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3",
+    "generic": true
+  },
+  {
+    "slug": "yudofu-nanzen-ji-area",
+    "file": "yudofu-nanzen-ji-area.webp",
+    "credit": "Flickr user cobacco(hiro kobashi)",
+    "license": "CC BY 2.0",
+    "source": "https://ja.wikipedia.org/wiki/%E6%B9%AF%E8%B1%86%E8%85%90",
+    "generic": false
+  },
+  {
+    "slug": "nishin-soba",
+    "file": "nishin-soba.webp",
+    "credit": "Hhaithait",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E3%81%AB%E3%81%97%E3%82%93%E3%81%9D%E3%81%B0",
+    "generic": false
+  },
+  {
+    "slug": "saba-zushi",
+    "file": "saba-zushi.webp",
+    "credit": "MemColorLab",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mackerel_sushi_(sabazushi).jpg",
+    "generic": false
+  },
+  {
+    "slug": "inari-zushi-at-fushimi-inari",
+    "file": "inari-zushi-at-fushimi-inari.webp",
+    "credit": "Mc681",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E7%A8%B2%E8%8D%B7%E5%AF%BF%E5%8F%B8",
+    "generic": false
+  },
+  {
+    "slug": "warabimochi-yatsuhashi",
+    "file": "warabimochi-yatsuhashi.webp",
+    "credit": "PekePON",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E5%85%AB%E3%83%84%E6%A9%8B",
+    "generic": false
+  },
+  {
+    "slug": "nakatanidou",
+    "file": "nakatanidou.webp",
+    "credit": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E9%A4%85",
+    "generic": true
+  },
+  {
+    "slug": "kakinoha-zushi",
+    "file": "kakinoha-zushi.webp",
+    "credit": "Tomomarusan",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E6%9F%BF%E3%81%AE%E8%91%89%E5%AF%BF%E5%8F%B8",
+    "generic": false
+  },
+  {
+    "slug": "narazuke",
+    "file": "narazuke.webp",
+    "credit": "daveyll from Tsukemono shop Ginza Wakana in Ginza, Tokyo",
+    "license": "CC BY-SA 2.0",
+    "source": "https://ja.wikipedia.org/wiki/%E5%A5%88%E8%89%AF%E6%BC%AC%E3%81%91",
+    "generic": false
+  },
+  {
+    "slug": "sanma",
+    "file": "sanma.webp",
+    "credit": "sakura_chihaya+ from Hiroshima",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sanma_shioyaki_by_sakura_chihaya%2B_in_Hiroshima.jpg",
+    "generic": false
+  },
+  {
+    "slug": "matsutake",
+    "file": "matsutake.webp",
+    "credit": "Tomomarusan",
+    "license": "CC BY 2.5",
+    "source": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%84%E3%82%BF%E3%82%B1",
+    "generic": false
+  },
+  {
+    "slug": "kuri",
+    "file": "kuri.webp",
+    "credit": "Apple2000",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AA",
+    "generic": false
+  },
+  {
+    "slug": "shinmai",
+    "file": "shinmai.webp",
+    "credit": "吉田宅浪",
+    "license": "CC BY-SA 3.0",
+    "source": "https://ja.wikipedia.org/wiki/%E6%96%B0%E7%B1%B3%E3%81%A8%E5%8F%A4%E7%B1%B3",
+    "generic": false
+  },
+  {
+    "slug": "tsukimi-items",
+    "file": "tsukimi-items.webp",
+    "credit": "Alpsdake",
+    "license": "CC BY-SA 4.0",
+    "source": "https://ja.wikipedia.org/wiki/%E6%9C%88%E8%A6%8B",
+    "generic": false
+  }
+]

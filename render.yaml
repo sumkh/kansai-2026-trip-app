@@ -1,0 +1,54 @@
+# Render blueprint. Infrastructure lives in the repo; secrets do not.
+#
+# No database block — Supabase holds the data. Render only runs Next.js.
+# Migrations run via the Supabase CLI, deliberately NOT in the build, so a
+# failed migration cannot take the site down.
+#
+# Only ONE value has to be typed into the Render dashboard: the Supabase
+# secret key. Everything else is either public, generated, or optional.
+#
+# NOTE: the NEXT_PUBLIC_* values below are inlined into the browser bundle at
+# BUILD time. Changing one needs a fresh deploy, not a restart — and it is why
+# they are committed here rather than left to be filled in later and forgotten.
+
+services:
+  - type: web
+    name: kansai-2026
+    runtime: node
+    # Render has no Tokyo region; the Supabase project is ap-northeast-1, and
+    # Singapore is the nearest hop to it.
+    region: singapore
+    plan: starter
+    branch: main
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+
+      # Public by design — the publishable key ships in the client bundle and
+      # is useless without a session, because RLS returns nothing to anon.
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        value: https://<project-ref>.supabase.co # fill in before deploying
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        value: "" # your project's publishable key
+
+      # THE ONE SECRET. Bypasses RLS entirely. Paste it in the Render dashboard
+      # when prompted; never put it in this file.
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+
+      # Bearer token for /api/trip/export and /api/trip/replan. Render generates
+      # a strong random value, so there is nothing to invent or leak. Read it
+      # back from the dashboard when you need it on your phone.
+      - key: TRIP_API_TOKEN
+        generateValue: true
+
+      # Optional. Empty is a supported state: without a maps key the app shows
+      # deep links only and hides "Show map here"; blog generation is not built
+      # yet. Fill them in later from the dashboard.
+      - key: NEXT_PUBLIC_MAPS_KEY
+        value: ""
+      - key: ANTHROPIC_API_KEY
+        value: ""

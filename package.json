@@ -1,0 +1,49 @@
+{
+  "name": "kansai-2026",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "db:types": "supabase gen types typescript --local > src/lib/database.types.ts",
+    "db:types:remote": "supabase gen types typescript --linked > src/lib/database.types.ts",
+    "db:seed": "tsx scripts/seed.ts",
+    "db:verify-rls": "tsx scripts/verify-rls.ts",
+    "verify:attention": "tsx scripts/verify-attention.ts",
+    "verify": "npm run typecheck && npm run verify:attention && npm run verify:patch && npm run db:verify-rls",
+    "db:reset": "supabase db reset",
+    "verify:smoke": "tsx scripts/smoke.ts",
+    "doctor": "tsx scripts/doctor.ts",
+    "icons": "tsx scripts/generate-icons.ts",
+    "trip:export": "tsx scripts/trip.ts",
+    "trip:apply": "tsx scripts/trip.ts",
+    "verify:patch": "tsx scripts/verify-patch.ts",
+    "photos": "tsx scripts/fetch-photos.ts",
+    "plan:sync": "tsx scripts/gen-plan.ts"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.4",
+    "@supabase/supabase-js": "^2.111.0",
+    "marked": "^18.0.7",
+    "next": "16.2.12",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "dotenv": "^17.4.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.12",
+    "supabase": "^2.110.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.1",
+    "typescript": "^5"
+  }
+}
